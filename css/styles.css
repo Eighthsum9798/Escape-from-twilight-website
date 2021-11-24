@@ -1,6 +1,10 @@
 body {
     background-color:rgb(104,151,75);
     
+    font-family: verdana, arial, sans-serif;
+    
+    font-size: 16px;
+    
     
 }
 
@@ -11,22 +15,47 @@ body {
 }
 
 h1, h2 {
-    
+    font-family:impact, cursive;
     background-color:darkgrey;
     color:green;
+    font-size:34px;
+    
+    text-transform: capitalize;
+    
+    text-decoration: underline;
+    
+    
+        
+        
+    
 }
 
 .character_name{
     
     color:darkblue;
+    
+    font-weight:bold;
 }
 
 span.character_name {
     
     color:darkorchid;
+    
+    
 }
 
 #first{
     
     color:blue;
+}
+
+
+a {
+    
+    text-decoration:none;
+}
+
+p {
+    line-height: 1.4;
+    text-align: left;
 }
