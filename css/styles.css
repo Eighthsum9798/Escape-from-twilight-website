@@ -1,10 +1,32 @@
- * {
-    color: darkred;
+body {
+    background-color:rgb(104,151,75);
+    
+    
+}
+
+
+
+* {
+    color: hsl(180,80%,60%);
 }
 
 h1, h2 {
+    
+    background-color:darkgrey;
     color:green;
 }
 
+.character_name{
+    
+    color:darkblue;
+}
 
+span.character_name {
+    
+    color:darkorchid;
+}
 
+#first{
+    
+    color:blue;
+}
